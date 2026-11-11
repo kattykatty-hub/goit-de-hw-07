@@ -1,8 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local data and runtime files
+data/
+logs/
+plugins/
+*.log
+
+# Credentials and OS/editor artifacts
 .env
 .env.*
 !.env.example
-.venv/
-__pycache__/
-*.pyc
-logs/
+.DS_Store
+.vscode/
+
+# Docker/local database files
 *.db
+*.sqlite
+*.sqlite3
